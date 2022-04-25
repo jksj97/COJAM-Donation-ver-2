@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f8dc09;
+        stroke: #f5d70c;
+      }
+
+      .cls-2 {
+        fill: #cf8c3f;
+      }
+
+      .cls-3, .cls-5 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke: #cf8c3f;
+        stroke-linecap: round;
+        stroke-width: 1.5px;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="eye-yellow" transform="translate(-2289 -4852)">
+    <g id="타원_12" data-name="타원 12" class="cls-1" transform="translate(2289 4852)">
+      <circle class="cls-4" cx="16" cy="16" r="16"/>
+      <circle class="cls-5" cx="16" cy="16" r="15.5"/>
+    </g>
+    <g id="그룹_94" data-name="그룹 94" transform="translate(35.924 1.411)">
+      <circle id="타원_13" data-name="타원 13" class="cls-2" cx="4" cy="4" r="4" transform="translate(2265.076 4865.589)"/>
+      <g id="그룹_93" data-name="그룹 93">
+        <path id="패스_67" data-name="패스 67" class="cls-3" d="M2261.076,4866.771s2.761-4.462,7.962-4.462,8.038,4.614,8.038,4.614" transform="translate(0)"/>
+        <path id="패스_68" data-name="패스 68" class="cls-3" d="M2269.631,4859.589v2.65" transform="translate(-0.555)"/>
+        <path id="패스_69" data-name="패스 69" class="cls-3" d="M2274.931,4863.777l2.046-2.279" transform="translate(-1.109)"/>
+        <path id="패스_70" data-name="패스 70" class="cls-3" d="M2264.492,4863.573l-1.48-2.459"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.1" height="19.5" viewBox="0 0 22.1 19.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #a8afb8;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <g id="loding-gray-icon" transform="translate(0.56 0.254)">
+    <g id="그룹_91" data-name="그룹 91" transform="translate(0.49 0.496)">
+      <path id="패스_63" data-name="패스 63" class="cls-1" d="M6.386,5.165A8.511,8.511,0,0,1,13.736,1a8.409,8.409,0,0,1,8.485,8.331" transform="translate(-3.783 -1)"/>
+      <path id="패스_64" data-name="패스 64" class="cls-1" d="M36.124,15.451l-1.557,2.07L33,15.438" transform="translate(-16.124 -8.617)"/>
+      <path id="패스_65" data-name="패스 65" class="cls-1" d="M20.08,20.663a8.511,8.511,0,0,1-7.35,4.165A8.409,8.409,0,0,1,4.245,16.5" transform="translate(-2.683 -6.828)"/>
+      <path id="패스_66" data-name="패스 66" class="cls-1" d="M1,16.873,2.557,14.8l1.567,2.083" transform="translate(-1 -6.844)"/>
+    </g>
+  </g>
+</svg>

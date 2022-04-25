@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="hambuger-white-icon" transform="translate(-310 -20)">
+    <g id="그룹_85" data-name="그룹 85">
+      <rect id="사각형_102" data-name="사각형 102" class="cls-1" width="20" height="20" transform="translate(310 20)"/>
+      <circle id="타원_9" data-name="타원 9" class="cls-2" cx="2" cy="2" r="2" transform="translate(318 20)"/>
+      <circle id="타원_11" data-name="타원 11" class="cls-2" cx="2" cy="2" r="2" transform="translate(318 36)"/>
+      <circle id="타원_10" data-name="타원 10" class="cls-2" cx="2" cy="2" r="2" transform="translate(318 28)"/>
+    </g>
+  </g>
+</svg>

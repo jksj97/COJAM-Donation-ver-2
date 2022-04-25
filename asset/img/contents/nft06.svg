@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="86" height="86" viewBox="0 0 86 86">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#pattern);
+      }
+    </style>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1725 1890">
+      <image width="1725" height="1890" xlink:href="../../../../%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202022-04-26%20025614.png"/>
+    </pattern>
+  </defs>
+  <rect id="nft06" class="cls-1" width="86" height="86" rx="8"/>
+</svg>

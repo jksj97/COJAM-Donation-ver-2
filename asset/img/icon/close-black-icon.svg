@@ -1,0 +1,27 @@
+<svg id="close-black-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+        stroke: #000;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="사각형_83" data-name="사각형 83" class="cls-1" width="16" height="16"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_65" data-name="그룹 65" class="cls-2">
+    <line id="선_14" data-name="선 14" class="cls-3" y1="14" x2="14" transform="translate(1 1)"/>
+    <line id="선_15" data-name="선 15" class="cls-3" x2="14" y2="14" transform="translate(1 1)"/>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20.5" viewBox="0 0 20 20.5">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #77797a;
+        stroke-width: 1.5px;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="money-gray-icon" transform="translate(-50 -687)">
+    <rect id="사각형_53" data-name="사각형 53" class="cls-1" width="20" height="20" transform="translate(50 687)"/>
+    <g id="그룹_13" data-name="그룹 13" transform="translate(51.5 687.375)">
+      <g id="그룹_14" data-name="그룹 14">
+        <path id="패스_15" data-name="패스 15" class="cls-2" d="M17.084,13.7C16.263,9.819,14.005,5.9,9.17,5.846v0l-.045,0-.046,0v0C4.245,5.9,1.987,9.819,1.166,13.7c-.581,2.751,0,7.821,7.914,7.86v0H9.17v0C17.086,21.524,17.666,16.455,17.084,13.7Z" transform="translate(-0.5 -2.191)"/>
+        <path id="패스_16" data-name="패스 16" class="cls-2" d="M14.632,4.024H9.4L8.9,1.732A.627.627,0,0,1,9.553,1h4.926a.627.627,0,0,1,.649.732Z" transform="translate(-3.391 -0.375)"/>
+        <path id="패스_17" data-name="패스 17" class="cls-3" d="M8,15.008l1.667,3.75,2.031-3.75,1.875,3.75,1.927-3.75" transform="translate(-3.125 -5.628)"/>
+        <line id="선_2" data-name="선 2" class="cls-3" x2="9" transform="translate(4.125 11)"/>
+      </g>
+    </g>
+  </g>
+</svg>

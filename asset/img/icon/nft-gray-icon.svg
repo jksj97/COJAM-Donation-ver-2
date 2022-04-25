@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20.574" viewBox="0 0 20 20.574">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #77797a;
+        stroke-width: 1.5px;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="nft-gray-icon" transform="translate(-110 -687)">
+    <rect id="사각형_54" data-name="사각형 54" class="cls-1" width="20" height="20" transform="translate(110 687)"/>
+    <g id="그룹_16" data-name="그룹 16" transform="translate(112.411 687.412)">
+      <g id="그룹_17" data-name="그룹 17">
+        <path id="패스_18" data-name="패스 18" class="cls-2" d="M14.359,7.6A6.68,6.68,0,0,0,1,7.544,6.515,6.515,0,0,0,2.373,11.6c.537.693,1.092,1.372,1.589,2.093L5.008,16.18h5.344l1.056-2.5c.446-.645.913-1.276,1.417-1.877A6.52,6.52,0,0,0,14.359,7.6Z" transform="translate(-0.412 -0.412)"/>
+        <path id="패스_19" data-name="패스 19" class="cls-2" d="M8.226,26.806v2.035a1.124,1.124,0,0,0,.306.71,2.955,2.955,0,0,0,4.245,0,1.124,1.124,0,0,0,.306-.71V26.806Z" transform="translate(-3.387 -11.038)"/>
+        <path id="패스_20" data-name="패스 20" class="cls-3" d="M6.355,14.433,9.044,10.9l1.905,3.529L13.414,10.9" transform="translate(-2.617 -4.49)"/>
+      </g>
+    </g>
+  </g>
+</svg>

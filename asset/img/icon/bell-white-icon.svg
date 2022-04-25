@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 1.5px;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <g id="bell-white-icon" transform="translate(-30 -20)">
+    <rect id="사각형_60" data-name="사각형 60" class="cls-1" width="20" height="20" transform="translate(30 20)"/>
+    <g id="그룹_40" data-name="그룹 40" transform="translate(31 20)">
+      <g id="그룹_41" data-name="그룹 41">
+        <path id="패스_25" data-name="패스 25" class="cls-2" d="M15,17H3V9.417A6.219,6.219,0,0,1,9,3a6.219,6.219,0,0,1,6,6.417Z" transform="translate(0 -1)"/>
+        <line id="선_6" data-name="선 6" class="cls-3" y1="1" transform="translate(9 1)"/>
+        <line id="선_7" data-name="선 7" class="cls-3" x2="14" transform="translate(2 16)"/>
+        <path id="패스_26" data-name="패스 26" class="cls-3" d="M15,27a2.5,2.5,0,0,1-5,0" transform="translate(-3.75 -11)"/>
+      </g>
+    </g>
+  </g>
+</svg>
