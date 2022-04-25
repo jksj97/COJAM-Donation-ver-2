@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F3F5F7;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.wrap{width: 26%; height: 100%;}
+.cojam-donation-black,
+.cojam-donation-white{
+    position: relative;
+    width: 100%; 
+    height: 100%; 
+    border-radius: 12px; 
+    box-shadow: 6px 12px 20px rgba(0, 0, 0, 0.066);
+    overflow: hidden;
+}
+.cojam-donation-black{background-color: #060A10;}
+.cojam-donation-white{background-color: white;}
+
+ul{list-style: none;}
+li, a, span{text-decoration: none;}
+li, a, p, span, h1, h2, h3, h4, h5{color: rgb(0, 0, 0); font-family: 'Noto Sans KR', sans-serif;}
+
+
+/* white page setting */
+.top-bar{
+    width: 100%; 
+    height: 60px;  
+    display: flex; 
+    align-items: center; 
+    padding: 0 8%;
+    position: relative;
+}
+.top-bar-container{width: 100%; height: 30px;}
+.top-bar-container > li{display: inline-block; margin-right: 20px;}
+.top-bar-container > li:nth-child(1)::after{
+    content:"9+";
+    background-color: #E83A31;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 2px 7px;
+    position: relative;
+    top: -5px;
+    left: 4px;
+}
+.top-bar-container > li:nth-child(2),
+.top-bar-container > li:nth-child(3){position: absolute; right: 6%;}
+.top-bar-container > li:nth-child(2){right: 15%;}
+
+.home-top-kakaologo{width: 100%; padding: 0 8%; position: relative;}
+.home-top-kakaologo > img,
+.home-top-kakaologo > h2{position: absolute;}
+.home-top-kakaologo > h2{
+    font-size: 18px; 
+    font-weight: 700; 
+    top: -6px;
+    left: 24%;
+}
+
+.live{margin-top: 50px; width: 100%; padding: 0 8%;}
+.unicef-box{
+    width: 100%; 
+    height: 120px; 
+    border-radius: 10px; 
+    background-color: #EDFAFE;
+    margin-top: 40px;
+}
+.unicef-box > a{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    position: relative;
+    top: 22px;
+}
+.unicef-box > a > span{font-size: 13px; margin-left: 18px;}
+.unicef-box > a > .icon-box{
+    width: 76px;
+    height: 76px; 
+    border-radius: 20px; 
+    background-color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 18px;
+}
+
+
+.bot-content{
+    width: 100%; 
+    height: 100%; 
+    background-color: #F3F5F7; 
+    margin-top: 30px; 
+    position: absolute; 
+    top: 330px;
+}
+.bot-content-inner{width: 100%; height: 100%; padding: 0 8%;}
+.bot-content-inner > p{position: relative; top: 14px;}
+.bot-content-inner > p > button {
+    margin-top: 18px;
+    width: 100%;
+    height: 44px; 
+    border-radius: 10px; 
+    background-color: #6649F5;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bot-content-inner > p > button > a{color: white; font-size: 13px; float: left; margin: 0 0 0 5%;}
+.bot-content-inner > p > button > img{
+    width: 10px;
+    height: 10px;
+    margin-right: 14px;
+}
+.bot-content-inner > h2{font-size: 18px; font-weight: 700px; margin: 40px 0 30px 0;}
+.bot-content-inner > h2 > span{color: #84878A;}
+
+.leftgroup-rightNFT{
+    width: 100%; 
+    height: 100%; 
+    background-color: white; 
+    border-radius: 10px 10px 0 0;
+    padding: 0 4%;
+    display: flex;
+    justify-content: space-between;
+}
+.leftgroup-rightNFT > .left,
+.leftgroup-rightNFT > .right{
+    width: 48%; 
+    height: 100%; 
+    margin-top: 14px;
+}
+.leftgroup-rightNFT > .left{border-right: 2px solid #F3F5F7;}
+.left > a > p,
+.right > a > p{font-size: 13px; font-weight: 700;}
+.left > a > span,
+.right > a > span{font-size: 12px; color: #77797A;}
+
+/* brand modal 창 */
+.container{
+    width: 100%; 
+    height: 100%; 
+}
+
+
+.modal > .body{
+    width: 100%; 
+    height: 100%; 
+    background-color: white;
+    border-radius: 16px 16px 0 0; 
+    margin-top: 40px;
+    padding: 0 8%;
+}
+.brand-close-modal{margin-top: -12px; cursor: pointer;}
+.tabmenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 600px; 
+    margin: 0 auto; 
+    position:relative; 
+    top: 20px;
+}
+.tabmenu > ul{list-style:none;}
+.close-icon{
+    cursor: pointer; 
+    width: 18px; 
+    height: 18px; 
+    border: 1px solid white; 
+    margin-top: -20px;
+}
+.tabmenu ul{width: 100%; height: 100%;}
+.tabmenu ul li{
+  display:  inline-block; 
+  float: left;  
+  text-align: left; 
+  margin-right: 14px;
+}
+.tabmenu label{
+  display: block;
+  width: 100%; 
+  height: 40px;
+}
+.tabmenu label span{
+    font-size: 13px;
+    font-weight: 700;
+    position: relative;
+    z-index: 101;
+    cursor: pointer;
+}
+.tabmenu input{display:none;}
+.tabCon{
+    width: 100%;
+    height: 100%;
+    display: none; 
+
+}
+.tabCon{
+  display: none; 
+  text-align: left; 
+  position: absolute; 
+  left: 0; 
+  top: 50px; 
+  box-sizing: border-box; 
+  color: black;
+}
+.tabmenu input:checked ~ label{
+
+}
+.tabmenu input:checked ~ label::after{
+    content:"";
+    border-bottom: 2px solid black;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    top: -18px;
+}
+.tabmenu input:checked ~ .tabCon{
+  display:block;
+}
+
+.brand-content{width: 100%;}
+.brand-content > figure{
+    width: 100%;
+    position: relative;
+    left: 0px;
+    margin: auto;
+}
+.brand-content > figure > img:nth-child(1){
+    width: 100%; 
+    position: absolute;
+}
+.brand-content > figure > img:nth-child(2){
+    position: relative; 
+    top: 80px; 
+    float: right;
+    z-index: 98;
+}
+
+.euent-area{
+    width: 120%; 
+    height: 100px; 
+    background-color: #F1F3F5; 
+    border: 2px solid #ECEFF2; 
+    position: relative;
+    top: 90px;
+    left: -10%;
+    padding: 0 8%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.euent-area > .box{
+    width: 138px;
+    height: 94px;
+    border: 2px solid #E4E7EA;
+    border-radius: 10px;
+    background-color: white;
+    margin-right: 4px;
+}
+.euent-area > .box > p{margin-left: 14px;}
+.euent-area > .box > p:nth-child(1){
+    width: 100px;
+    margin-top: 14px; 
+    font-size: 10px; 
+    color: #B6B6B6; 
+    font-family: 'Noto Serif KR', serif;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #B6B6B6;
+}
+.euent-area > .box > p:nth-child(2){
+    margin-top: 4px; 
+    font-size: 13px; 
+    color: #77797A; 
+}
+
+.brand-list{width: 100%; height: 100%; margin-top: 100px;}
+
+.brand-list > ul > li{
+    width: 100%; 
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.brand-list > ul > li > span{font-size: 13px; font-weight: 700;}
+
+
+
+
+
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    border-radius: 10px 10px 0 0; 
+    background-color: #ffffff;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+}
+.footer-inner{width: 100%; height: 100%; padding: 0 30px;}
+.home-top-btn{width: 100%; height: 38px;}
+.home-top-btn > h3{text-align: left; margin-right: 20px; float: left; padding: 1% 0;}
+.home-top-btn > h3 > a{font-size: 18px;}
+.home-top-btn > h3:nth-child(1){border-top: 6px solid black;}
+.home-top-btn > h3:nth-child(2),
+.home-top-btn > h3:nth-child(3){margin-top: 6px;}
+.home-bot-btn{width: 100%; margin-top: 30px;}
+.home-bot-btn{width: 100%;}
+.home-bot-menu{display: flex; align-items: center; justify-content: center;}
+.home-bot-menu > li{ display: inline-block; padding: 2% 6%;}
+.home-bot-menu > li > a{text-align: center;}
+.home-bot-menu > li > a > p{margin-bottom: 4px;}
+.home-bot-menu > li > a > p > span{text-align: center; font-size: 13px; font-weight: 500;}
+
+
+.modal{
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+    top: 100%;
+    z-index: 101;
+    background-color: black;
+    transition: all 600ms cubic-bezier(0.86, 0, 0.07, 1);
+}
+.container.brand-open .modal {top: 0%;}

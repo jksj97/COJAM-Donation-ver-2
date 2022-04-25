@@ -7,17 +7,413 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/white.css">
     <link rel="stylesheet" href="./css/moblie.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/modal.js"></script>
     <title>Document</title>
 </head>
 <body>
     <div class="wrapper">
         <div class="wrap">
             <div class="cojam-donation-white">
-                
+                <nav class="top-bar">
+                    <ul class="top-bar-container">
+                        <li><img src="./asset/img/icon/bell-black-icon.svg"></li>
+                        <li><img src="./asset/img/icon/sounds-black-icon.svg"></li>
+                        <li><img src="./asset/img/icon/setting-black-icon.svg"></li>
+                    </ul>
+                </nav>
+
+                <div class="home-top-kakaologo">
+                    <img src="./asset/img/contents/kakaoPay-logo.svg" alt="kakao black logo">
+                    <h2>기부</h2>
+                </div>
+
+                <figure class="live"><img src="./asset/img/contents/live-content.png" alt="live">
+                    <h2>만나서 반가워요</h2>
+                    <div class="unicef-box">
+                        <a href="./unicef.html">
+                            <span>유니세프 소식 확인하러 가기</span>
+                            <div class="icon-box"><img src="./asset/img/icon/unicef-right-icon.svg" alt="unicef-icon"></div>
+                        </a>
+                    </div>
+                </figure>
+
+                <div class="bot-content">
+                    <div class="bot-content-inner">
+                        <p>
+                        <button>
+                            <a href="#">고양이 학교의 선생님이 되어주세요!</a>
+                            <img src="./asset/img/icon/right-arrow-white-icon.svg" alt="">
+                        </button>
+                        </p>
+                        <h2>내 보유 <span>0</span></h2>
+    
+                        <div class="leftgroup-rightNFT">
+                            <div class="left">
+                                <a href="#">
+                                    <p class="brandclick-modal">내가 참여한 단체</p>
+                                    <span>참여내역</span>
+                                </a>
+                            </div>
+                            <div class="right">
+                                <a href="./nft.html">
+                                    <p>내가 보유중인 NFT</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container brand-open">
+                    <div class="modal">
+                        <div class="body">
+                            <div class="tabmenu">
+                                <ul>
+                                    <li id="tab1" class="btnCon">
+                                        <input type="radio" name="tabmenu" id="tabmenu1" checked>
+                                        <label for="tabmenu1"><span>ALL</span></label>
+                                        <div class="tabCon" >
+                                            <div class="brand-content">
+                                                <figure>
+                                                    <img src="./asset/img/icon/barcode.png" alt="">
+                                                    <img src="./asset/img/contents/icon-2D.png" alt="">
+                                                </figure>
+                                                <div class="euent-area">
+                                                    <div class="box">
+                                                        <p class="top-tit">Euent</p>
+                                                        <p>4월의 기부왕은?</p>
+                                                    </div>
+                                                    <div class="box">
+                                                        <p class="top-tit">Euent</p>
+                                                        <p>NFT 드랍 이벤트 <br> 알아보기</p>
+                                                    </div>
+                                                </div>
+                                                    <div class="brand-list">
+                                                        <ul>
+                                                            <li>
+                                                                <img src="./asset/img/logo/ALLlogo-01.png" alt="">
+                                                                <span>사회복지공동모금회 <br>
+                                                                    사랑의 열매
+                                                                </span>
+                                                                <h4>43,000</h4>
+                                                            </li>
+                                                            <li>
+                                                                <img src="./asset/img/logo/ALLlogo-02.png" alt="">
+                                                                <span>참여연대
+                                                                </span>
+                                                                <h4>1,004</h4>
+                                                            </li>
+                                                            <li>
+                                                                <img src="./asset/img/logo/ALLlogo-03.png" alt="">
+                                                                <span>더불어민주당
+                                                                </span>
+                                                                <h4>9,000</h4>
+                                                            </li>
+                                                            <li>
+                                                                <img src="./asset/img/logo/ALLlogo-04.png" alt="">
+                                                                <span>국민의 힘
+                                                                </span>
+                                                                <h4>7,500</h4>
+                                                            </li>
+                                                            <li>
+                                                                <img src="./asset/img/logo/ALLlogo-05.png" alt="">
+                                                                <span>유니세프
+                                                                </span>
+                                                                <h4>5,000</h4>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </li>  
+            
+                                    <li id="tab2" class="btnCon">
+                                        <input type="radio" name="tabmenu" id="tabmenu2">
+                                        <label for="tabmenu2"><span>사회복지</span></label>
+                                        <div class="tabCon" >
+                                            <div class="brand-content">
+                                                <figure>
+                                                    <img src="./asset/img/icon/barcode.png" alt="">
+                                                    <img src="./asset/img/contents/icon-2D.png" alt="">
+                                                </figure>
+                                                <div class="euent-area">
+                                                    <div class="box">
+                                                        <p class="top-tit">Euent</p>
+                                                        <p>4월의 기부왕은?</p>
+                                                    </div>
+                                                    <div class="box">
+                                                        <p class="top-tit">Euent</p>
+                                                        <p>NFT 드랍 이벤트 <br> 알아보기</p>
+                                                    </div>
+                                                </div>
+                                                    <div class="brand-list">
+                                                        <ul>
+                                                            <li>
+                                                                <img src="./asset/img/logo/socallogo-01.png" alt="">
+                                                                <span>사회복지공동모금회 <br>
+                                                                    사랑의 열매
+                                                                </span>
+                                                                <h4>43,000</h4>
+                                                            </li>
+                                                            <li>
+                                                                <img src="./asset/img/logo/socallogo-02.png" alt="">
+                                                                <span>초록우산 어린이재단
+                                                                </span>
+                                                                <h4>1,004</h4>
+                                                            </li>
+                                                            <li>
+                                                                <img src="./asset/img/logo/socallogo-03.png" alt="">
+                                                                <span>동물권행동 KARA
+                                                                </span>
+                                                                <h4>9,000</h4>
+                                                            </li>
+                                                            <li>
+                                                                <img src="./asset/img/logo/socallogo-04.png" alt="">
+                                                                <span>고양이 학교
+                                                                </span>
+                                                                <h4>7,500</h4>
+                                                            </li>
+                                                            <li>
+                                                                <img src="./asset/img/logo/socallogo-05.png" alt="">
+                                                                <span>유니세프
+                                                                </span>
+                                                                <h4>5,000</h4>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </li>   
+            
+                                    <li id="tab3" class="btnCon">
+                                        <input type="radio" name="tabmenu" id="tabmenu3">
+                                        <label for="tabmenu3"><span>시민단체</span></label>
+                                        <div class="tabCon" >
+                                            <div class="brand-content">
+                                                <figure>
+                                                    <img src="./asset/img/icon/barcode.png" alt="">
+                                                    <img src="./asset/img/contents/icon-2D.png" alt="">
+                                                </figure>
+                                                <div class="euent-area">
+                                                    <div class="box">
+                                                        <p class="top-tit">Euent</p>
+                                                        <p>4월의 기부왕은?</p>
+                                                    </div>
+                                                    <div class="box">
+                                                        <p class="top-tit">Euent</p>
+                                                        <p>NFT 드랍 이벤트 <br> 알아보기</p>
+                                                    </div>
+                                                </div>
+                                                    <div class="brand-list">
+                                                        <ul>
+                                                            <li>
+                                                                <img src="./asset/img/logo/peopleGruop-logo-01.png" alt="">
+                                                                <span>참여연대
+                                                                </span>
+                                                                <h4>43,000</h4>
+                                                            </li>
+                                                            <li>
+                                                                <img src="./asset/img/logo/peopleGruop-logo-02.png" alt="">
+                                                                <span>YMCK
+                                                                </span>
+                                                                <h4>1,004</h4>
+                                                            </li>
+                                                            <li>
+                                                                <img src="./asset/img/logo/peopleGruop-logo-03.png" alt="">
+                                                                <span>5.18재단
+                                                                </span>
+                                                                <h4>9,000</h4>
+                                                            </li>
+                                                            <li>
+                                                                <img src="./asset/img/logo/peopleGruop-logo-04.png" alt="">
+                                                                <span>민주언론시민연합
+                                                                </span>
+                                                                <h4>7,500</h4>
+                                                            </li>
+                                                            <li>
+                                                                <img src="./asset/img/logo/peopleGruop-logo-05.png" alt="">
+                                                                <span>환경연합
+                                                                </span>
+                                                                <h4>5,000</h4>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li id="tab4" class="btnCon">
+                                        <input type="radio" name="tabmenu" id="tabmenu4">
+                                        <label for="tabmenu4"><span>정치</span></label>
+                                        <div class="tabCon" >
+                                            <div class="brand-content">
+                                                <figure>
+                                                    <img src="./asset/img/icon/barcode.png" alt="">
+                                                    <img src="./asset/img/contents/icon-2D.png" alt="">
+                                                </figure>
+                                                <div class="euent-area">
+                                                    <div class="box">
+                                                        <p class="top-tit">Euent</p>
+                                                        <p>4월의 기부왕은?</p>
+                                                    </div>
+                                                    <div class="box">
+                                                        <p class="top-tit">Euent</p>
+                                                        <p>NFT 드랍 이벤트 <br> 알아보기</p>
+                                                    </div>
+                                                </div>
+                                                    <div class="brand-list">
+                                                        <ul>
+                                                            <li>
+                                                                <img src="./asset/img/logo/politics-logo-01.png" alt="">
+                                                                <span>더불어민주당
+                                                                </span>
+                                                                <h4>43,000</h4>
+                                                            </li>
+                                                            <li>
+                                                                <img src="./asset/img/logo/politics-logo-02.png" alt="">
+                                                                <span>국민의 힘
+                                                                </span>
+                                                                <h4>1,004</h4>
+                                                            </li>
+                                                            <li>
+                                                                <img src="./asset/img/logo/politics-logo-03.png" alt="">
+                                                                <span>도종환 국회의원
+                                                                </span>
+                                                                <h4>9,000</h4>
+                                                            </li>
+                                                            <li>
+                                                                <img src="./asset/img/logo/politics-logo-04.png" alt="">
+                                                                <span>홍준표 국회의원
+                                                                </span>
+                                                                <h4>7,500</h4>
+                                                            </li>
+                                                            <li>
+                                                                <img src="./asset/img/logo/politics-logo-05.png" alt="">
+                                                                <span>권성동 국회의원
+                                                                </span>
+                                                                <h4>5,000</h4>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li id="tab5" class="btnCon">
+                                        <input type="radio" name="tabmenu" id="tabmenu5">
+                                        <label for="tabmenu5"><span>종교</span></label>
+                                        <div class="tabCon" >
+                                            <div class="brand-content">
+                                                <figure>
+                                                    <img src="./asset/img/icon/barcode.png" alt="">
+                                                    <img src="./asset/img/contents/icon-2D.png" alt="">
+                                                </figure>
+                                                <div class="euent-area">
+                                                    <div class="box">
+                                                        <p class="top-tit">Euent</p>
+                                                        <p>4월의 기부왕은?</p>
+                                                    </div>
+                                                    <div class="box">
+                                                        <p class="top-tit">Euent</p>
+                                                        <p>NFT 드랍 이벤트 <br> 알아보기</p>
+                                                    </div>
+                                                </div>
+                                                    <div class="brand-list">
+                                                        <ul>
+                                                            <li>
+                                                                <img src="./asset/img/logo/religion-logo-01.png" alt="">
+                                                                <span>여의도순복음교회
+                                                                </span>
+                                                                <h4>43,000</h4>
+                                                            </li>
+                                                            <li>
+                                                                <img src="./asset/img/logo/religion-logo-02.png" alt="">
+                                                                <span>온누리교회
+                                                                </span>
+                                                                <h4>1,004</h4>
+                                                            </li>
+                                                            <li>
+                                                                <img src="./asset/img/logo/religion-logo-03.png" alt="">
+                                                                <span>대한불교 조계종 조계사
+                                                                </span>
+                                                                <h4>9,000</h4>
+                                                            </li>
+                                                            <li>
+                                                                <img src="./asset/img/logo/religion-logo-04.png" alt="">
+                                                                <span>봉은사
+                                                                </span>
+                                                                <h4>7,500</h4>
+                                                            </li>
+                                                            <li>
+                                                                <img src="./asset/img/logo/religion-logo-05.png" alt="">
+                                                                <span>명동 대성당
+                                                                </span>
+                                                                <h4>5,000</h4>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <img class="brand-close-modal" class="close-icon" src="./asset/img/icon/close-black-icon.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- footer -->
+                <div id="footer">
+                    <div class="footer-inner">
+                        <div class="home-top-btn">
+                            <h3><a href="">내 기부</a></h3>
+                            <h3><a href="">발견</a></h3>
+                            <h3><a href="">관리</a></h3>
+                        </div>
+                        <div class="home-bot-btn">
+                            <nav>
+                                <ul class="home-bot-menu">
+                                    <li>
+                                        <a href="./index.html">
+                                            <p><img src="./asset/img/icon/money-gray-icon.svg" alt=""></p>
+                                            <p><span>자산</span></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p><img src="./asset/img/icon/nft-gray-icon.svg" alt=""></p>
+                                            <p><span>NFT</span></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./home.html">
+                                            <p><img src="./asset/img/icon/home-gray-icon.svg" alt=""></p>
+                                            <p><span>홈</span></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p><img src="./asset/img/icon/benetfit-gray-icon.svg" alt=""></p>
+                                            <p><span>혜택</span></p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p><img src="./asset/img/icon/have-gray-icon.svg" alt=""></p>
+                                            <p><span>보유</span></p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+
 </body>
 </html>
