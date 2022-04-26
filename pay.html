@@ -7,15 +7,91 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/pay.css">
     <link rel="stylesheet" href="./css/moblie.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/modal.js"></script>
     <title>Document</title>
 </head>
 <body>
     <div class="wrapper">
         <div class="wrap">
-            <div class="cojam-donation-white">
+            <div class="cojam-pay-donation">
+
+                <div class="paymodal">
+                    <div class="paymodal-content">
+                        <div class="paymodalcont-inner">
+                            <p>결제가 완료되었습니다!</p>
+                            <button class="close-modal"title="클릭하면 창이 닫힙니다."><p>확인</p></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="top-bar-btn">
+                    <nav class="payTop-bar">
+                        <ul>
+                            <li><a href="./home.html"><img src="./asset/img/logo/kakaoPat-white-logo.svg"></a></li>
+                            <li><img src="./asset/img/icon/payMain-linewhite-icon.svg"></li>
+                            <li><img src="./asset/img/icon/hambuger-white-icon.svg"></li>
+                        </ul>
+                    </nav>
+                    <button class="btn-gift"><a href="#">특별한 날엔 결제바우처를 선물해보세요.</a></button>
+                </div>
+
                 
+                <div class="paycontent-container">
+                    <div class="paycontent-inner">
+                        <div class="tabmenu">
+                            <ul>
+                              <li id="tab1" class="btnCon"> 
+                                <input type="radio" checked name="tabmenu" id="tabmenu1">
+                                <label for="tabmenu1"><span>결제</span></label>
+                                <div class="tabCon" >
+                                    <div class="pay-content">
+                                        <img src="./asset/img/icon/barcode.png" alt="">
+        
+                                        <div class="nation-cont">
+                                            <select>
+                                                <option style="color:black ;">대한민국</option>
+                                                <option style="color:black ;">미국</option>
+                                                <option style="color:black ;">일본</option>
+                                            </select>
+                                            <img src="./asset/img/icon/loding-gray-icon.svg" alt="">
+                                        </div>
+        
+                                        <a href="">
+                                        <div class="pay-box">
+                                            <img src="./asset/img/logo/kakao-pay-black-logo.svg" alt="kakao-pay-black-logo">
+                                            <div class="pay-box-numIcon">
+                                                <img src="./asset/img/logo/eye-yellow.svg" alt="">
+                                                <span>7,600원</span>
+                                            </div>
+                                        </div>
+                                        </a>
+                                    </div>
+                                </div>
+                              </li>
+        
+                              <li id="tab2" class="btnCon">
+                                <input type="radio" name="tabmenu" id="tabmenu2">
+                                <label for="tabmenu2"><span>멤버쉽</span></label>
+                                <div class="tabCon" >
+                                    It is a long established
+                                </div>
+                              </li>   
+        
+                              <li id="tab3" class="btnCon">
+                                <input type="radio" name="tabmenu" id="tabmenu3">
+                                <label for="tabmenu3"><span>혜택</span></label>
+                                <div class="tabCon" >
+                                    There are many variations
+                                </div>
+                              </li>
+                            </ul>
+                            <img src="./asset/img/icon/position-black-icon.svg" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

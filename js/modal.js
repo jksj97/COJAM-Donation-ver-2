@@ -13,11 +13,12 @@ $( document ).ready(function() {
 
 
       //pay modal
-      $(".pay-box").click(function(){
-        $(".modal").fadeIn();
+   $(".pay-box").click(function(){
+        $(".paymodal").css({'display':'block'});
+      });
+
+      $(".close-modal").click(function(){
+        $(".paymodal").css({'display':'none'});
       });
       
-      $(".close-modal").click(function(){
-        $(".modal").fadeOut();
-      });
 });
