@@ -60,6 +60,73 @@
                             <h4>unicef</h4>
                             <button><a class="btn js-close-modal"><img src="./asset/img/icon/close-white-icon.svg" alt=""></a></button>
                         </div>
+
+                        <div class="brand-area">
+                            <div class="brand-area-inner">
+                                <a href="https://www.unicef.or.kr/"><img src="./asset/img/logo/unicef-logo.png" alt=""></a>
+                                <p><button><a href="https://www.unicef.or.kr/">공식 홈페이지</a></button></p>
+                            </div>
+                        </div>
+
+                        <div class="body">
+                            <div class="info-agress-cont">
+                                <div class="email-box"><div><span>이메일 주소</span></div></div>
+                                <div class="info-agree">
+                                    <p id="agreetit" class="first-agree">
+                                        <img src="./asset/img/icon/chcekBox-gray-icon.svg" alt="">
+                                        <span>개인정보 제3자 제공 동의(필수)</span>
+                                    </p>
+                                    <p id="agreetit" class="secon-agree">
+                                        <img src="./asset/img/icon/chcekBox-gray-icon.svg" alt="">
+                                        <span>제휴사 약관</span>
+                                    </p>
+                                    <nav class="detail-agree-cont">
+                                        <ul>
+                                            <li>이용약관 (필수)</li>
+                                            <li>개인정보 제공에 대한 동의 (필수)</li>
+                                            <li>개인정보 수집 및 이용에 대한 동의 (필수)</li>
+                                            <li>개인정보 선택적 수집 및 이용에 대한 동의 (선택)</li>
+                                            <li>이메일 수신동의 (선택)</li>
+                                            <li>SMS 수신동의 (선택)</li>
+                                            <li>전화 수신동의 (선택)</li>
+                                        </ul>
+                                    </nav>
+
+                                    <nav class="chooes-agree-cont">
+                                        <ul>
+                                            <li>
+                                                <p>후원선택</p>
+                                                <div class="btn-group">
+                                                    <button><span>정기</span></button>
+                                                    <button><span>일시</span></button>
+                                                    <button><span>연</span></button>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <p>후원금액</p>
+                                                <div class="btn-group">
+                                                    <button><span>1,000</span></button>
+                                                    <button><span>5,000</span></button>
+                                                    <button><span>10,000</span></button>
+                                                    <button><span>직접입력</span></button>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <p>후원선택</p>
+                                                <div class="btn-group">
+                                                    <button><span>5</span></button>
+                                                    <button><span>10</span></button>
+                                                    <button><span>15</span></button>
+                                                    <button><span>20</span></button>
+                                                    <button><span>25</span></button>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <p class="next-btn-container"><button class="next-btn"><a href="./pay.html">연결하기</a></button></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -112,5 +179,18 @@
             </div>
         </div>
     </div>
+
+    <script>
+    $( document ).ready(function() {
+
+    $('.js-click-modal').click(function(){
+        $('.modal-container').addClass('active');
+      });
+      
+      $('.js-close-modal').click(function(){
+        $('.modal-container').removeClass('active');
+      });
+});
+    </script>
 </body>
 </html>
