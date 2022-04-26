@@ -7,15 +7,108 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/white.css">
     <link rel="stylesheet" href="./css/moblie.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/modal.js"></script>
     <title>Document</title>
 </head>
 <body>
     <div class="wrapper">
         <div class="wrap">
             <div class="cojam-donation-white">
-                
+                <nav class="top-bar">
+                    <ul class="top-bar-container">
+                        <li><img src="./asset/img/icon/bell-black-icon.svg"></li>
+                        <li><img src="./asset/img/icon/sounds-black-icon.svg"></li>
+                        <li><img src="./asset/img/icon/setting-black-icon.svg"></li>
+                    </ul>
+                </nav>
+
+                <div class="home-top-kakaologo">
+                    <img src="./asset/img/contents/kakaoPay-logo.svg" alt="kakao black logo">
+                    <h2>기부</h2>
+                </div>
+
+                <div class="top-blueDot">
+                    <img src="./asset/img/logo/unicef-logo.png" alt="">
+                    <h2>기부공시앱</h2>
+                    <p class="blue">우크라이나의 난민을 위한
+                        <br> 블루닷(BLUE DOTS) 센터 소개영상
+                    </p>
+                    <img class="unicef-people" src="./asset/img/contents/unicef-people-image.png" alt="">
+                </div>
+
+                <div class="bot-blueDot">
+                    <div class="bot-blueDot-inner">
+                        <p>블루닷 센터는 가족을 찾아주고 신체 및 정신적으로 지원해주며<br>
+                            학대와 인신매매등으로 부터 보호합니다.<br> 
+                            블루닷 센터는 폴란드, 루마니아, 몰도바등 인접 국가에<br>
+                            설치되었으며 점차 지속적으로 늘릴 예정입니다.<br>
+                            더 많은 어린이와 가족들을 지켜줄 수 있도록 동행해주세요.
+                        </p>
+
+                        <div class="unicef-whitebg">
+                            <h2 class="js-click-modal">후원하기</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-container">
+                    <div id="modal">
+                        <div class="header">
+                            <h4>unicef</h4>
+                            <button><a class="btn js-close-modal"><img src="./asset/img/icon/close-white-icon.svg" alt=""></a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- footer -->
+                <div id="footer">
+                    <div class="footer-inner">
+                        <div class="home-top-btn">
+                            <h3><a href="">내 기부</a></h3>
+                            <h3><a href="">발견</a></h3>
+                            <h3><a href="">관리</a></h3>
+                        </div>
+                        <div class="home-bot-btn">
+                            <nav>
+                                <ul class="home-bot-menu">
+                                                    <li>
+                                                        <a href="./index.html">
+                                                            <p><img src="./asset/img/icon/money-gray-icon.svg" alt=""></p>
+                                                            <p><span>자산</span></p>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <p><img src="./asset/img/icon/nft-gray-icon.svg" alt=""></p>
+                                                            <p><span>NFT</span></p>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="./home.html">
+                                                            <p><img src="./asset/img/icon/home-gray-icon.svg" alt=""></p>
+                                                            <p><span>홈</span></p>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <p><img src="./asset/img/icon/benetfit-gray-icon.svg" alt=""></p>
+                                                            <p><span>혜택</span></p>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <p><img src="./asset/img/icon/have-gray-icon.svg" alt=""></p>
+                                                            <p><span>보유</span></p>
+                                                        </a>
+                                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
