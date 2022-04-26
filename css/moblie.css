@@ -2,7 +2,7 @@
 
 
     .wrap{width: 100%; height: 100%;}
-    .cojam-donation-black, .cojam-donation-white, .cojam-pay-donation{border-radius: 0px; overflow: scroll;}
+    .cojam-donation-black, .cojam-donation-white, .cojam-pay-donation{border-radius: 0px;}
 
 
 }
