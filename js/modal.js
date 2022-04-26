@@ -9,16 +9,14 @@ $( document ).ready(function() {
             $(".container").removeClass("brand-open");
           })
     
-          console.log( "ready!" );
+          $("#pay-box").click(function(){
+            $(".modal").fadeIn();
+          });
+          
+          $(".close-modal").click(function(){
+            $(".modal").fadeOut();
+          });
 
-
-      //pay modal
-   $(".pay-box").click(function(){
-        $(".paymodal").css({'display':'block'});
-      });
-
-      $(".close-modal").click(function(){
-        $(".paymodal").css({'display':'none'});
-      });
       
+
 });
