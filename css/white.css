@@ -371,13 +371,17 @@ li, a, p, span, h1, h2, h3, h4, h5{color: rgb(0, 0, 0); font-family: 'Noto Sans 
 
 /* unicef html */
 .top-blueDot{width: 100%; height: 32%; padding: 0 8%; margin-top: 50px;}
-.blue{font-size: 13px; color: #39A6D9; font-weight: 700; margin: 20px 0;}
-.top-blueDot > .unicef-people{
-    position: relative; 
-    top: -5%; 
-    left: 0;  
-}
+.blue{font-size: 13px; text-align: center; color: #39A6D9; font-weight: 700; margin: 20px 0;}
 
+.top-blueDot > .top-blueDotCenter > p{
+    position: relative;
+    top: -10px;
+}
+.top-blueDot > .top-blueDotCenter > .unicef-people{
+    position: relative;
+    top: -20px;
+}
+.top-blueDotCenter{width: 100%; margin:auto; text-align: center;}
 .bot-blueDot{width: 100%; height: 100%; padding: 0 8%; background-color: #F3F5F7;}
 .bot-blueDot-inner{width: 100%; height: 100%;}
 .bot-blueDot-inner > p{
