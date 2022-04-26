@@ -83,7 +83,7 @@ li, a, p, span, h1, h2, h3, h4, h5{color: rgb(0, 0, 0); font-family: 'Noto Sans 
 }
 .paycontent-inner{
     width: 100%;
-    height: 100%;
+    height: 800px;
     padding: 0 30px;
     background-color: white;
     border-radius: 8px;

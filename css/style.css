@@ -112,8 +112,8 @@ main{width: 100%; padding: 0 8%;  position: relative;}
     margin-top: 2.6%;
     width: 100%; 
     position: relative;
-    height: 100%;
-    background: url(../asset/img/contents/orange-bleur.png) no-repeat 95% center;
+    height: 30%;
+    /*background: url(../asset/img/contents/orange-bleur.png) no-repeat bottom; */
     display: inline-block;
 }
 .img-group > .home-bg{
@@ -135,9 +135,9 @@ main{width: 100%; padding: 0 8%;  position: relative;}
 }
 
 footer{
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    width: 100%;
+    width:  26%;
     height: 20%;
     border-radius: 10px 10px 0 0; 
     background-color: #282B2D;

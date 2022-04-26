@@ -57,6 +57,7 @@ li, a, p, span, h1, h2, h3, h4, h5{color: rgb(0, 0, 0); font-family: 'Noto Sans 
     position: relative;
     top: -5px;
     left: 4px;
+    color: white;
 }
 .top-bar-container > li:nth-child(2),
 .top-bar-container > li:nth-child(3){position: absolute; right: 6%;}
@@ -542,9 +543,9 @@ h3{font-size: 13px;}
 
 
 #footer{
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 26%;
     height: 20%;
     border-radius: 10px 10px 0 0; 
     background-color: #ffffff;
