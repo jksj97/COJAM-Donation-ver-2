@@ -7,6 +7,16 @@
 }
 body{
     background-color: #FCDA4E;
+    position: relative;
+}
+
+.web-bot{
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
 }
 
 .moblie{

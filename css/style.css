@@ -7,6 +7,16 @@
 }
 body{
     background-color: #FCDA4E;
+    position: relative;
+}
+
+.web-bot{
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
 }
 
 .moblie{
@@ -35,6 +45,8 @@ body{
     background: url(../asset/img/contents/20.png) no-repeat center center;
     display: inline-block;
 }
+
+.wrap > .web-bot > span{text-align: center; font-size: 24px; font-weight: 700;}
 .cojam-donation-black,
 .cojam-donation-white{
     position: relative;

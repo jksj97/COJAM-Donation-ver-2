@@ -4,6 +4,8 @@
         background-color: white;
     }
 
+    .web-bot{display: none;}
+
     .moblie{
         width: 100%;
         height: 820px;

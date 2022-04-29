@@ -13,6 +13,16 @@ body{
     align-items: center;
     justify-content: center;
     vertical-align: middle;
+    position: relative;
+}
+
+.web-bot{
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
 }
 
 .wrapper{
