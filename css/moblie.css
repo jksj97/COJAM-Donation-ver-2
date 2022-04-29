@@ -3,7 +3,7 @@
 
     .wrapper{
         width: 100vw;
-        height: 100vh;
+        height: 740px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -13,7 +13,7 @@
     .wrap{
         width: 100%; 
         overflow: scroll;
-        height: 100vh;
+        height: 740px;
     }
     .cojam-donation-black, 
     .cojam-donation-white, 

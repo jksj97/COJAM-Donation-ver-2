@@ -18,10 +18,16 @@ $( document ).ready(function() {
           });
 
       //popUp
+      $('a.btn-pop01').click(function(e)
+      {
+        e.preventDefault();   
+      });
+  
+
       $(".btn-pop01").on("click", function(){
         $("#pop01").show();
       });
-      $("#pop01 .modal-wrapper .modal-inner .close").on("click", function(){
+      $("#close").on("click", function(){
         $("#pop01").hide();
       });
 
