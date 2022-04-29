@@ -17,6 +17,12 @@ $( document ).ready(function() {
             $(".modal").fadeOut();
           });
 
-      
+      //popUp
+      $(".btn-pop01").on("click", function(){
+        $("#pop01").show();
+      });
+      $("#pop01 .modal-wrapper .modal-inner .close").on("click", function(){
+        $("#pop01").hide();
+      });
 
 });

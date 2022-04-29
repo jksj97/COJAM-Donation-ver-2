@@ -14,17 +14,7 @@
 <body>
     <div class="wrapper">
         <div class="wrap">
-            <div class="cojam-pay-donation">
-
-                <div class="modal" id="apply" data-backdrop="static" data-keyboard="false">
-                    <div class="modal-content">
-                        <div class="modalcont-inner">
-                            <p>결제가 완료되었습니다!</p>
-                            <button class="close-modal" title="클릭하면 창이 닫힙니다." data-dismiss="paymodal"><p>확인</p></button>
-                        </div>
-                    </div>
-                </div>
-                
+            <div class="cojam-pay-donation">                
                 <div class="top-bar-btn">
                     <nav class="payTop-bar">
                         <ul>
@@ -57,14 +47,12 @@
                                             <img src="./asset/img/icon/loding-gray-icon.svg" alt="">
                                         </div>
         
-                                        <a href="">
-                                        <div id="pay-box" data-toggle="modal"  data-target="#apply">
+                                        <a href="#pop01" class="btn-pop01">
                                             <img src="./asset/img/logo/kakao-pay-black-logo.svg" alt="kakao-pay-black-logo">
                                             <div class="pay-box-numIcon">
                                                 <img src="./asset/img/logo/eye-yellow.svg" alt="">
                                                 <span>7,600원</span>
                                             </div>
-                                        </div>
                                         </a>
                                     </div>
                                 </div>
@@ -89,6 +77,18 @@
                             <img src="./asset/img/icon/position-black-icon.svg" alt="">
                         </div>
                     </div>
+                </div>
+
+                <div class="modal-container" id="pop01">
+                    <div class="modal-wrapper">
+                        <div class="modal-inner">
+                            <div class="main-info">
+                                <h4 class="title">결제가 완료되었습니다.</h4>
+                            </div>
+                            <a href="#a" class="close"><button>확인</button></a>
+                        </div>
+                    </div>
+                    <div class="overlay"></div>
                 </div>
             </div>
         </div>
