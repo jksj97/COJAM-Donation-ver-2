@@ -431,7 +431,7 @@ li, a, p, span, h1, h2, h3, h4, h5{color: rgb(0, 0, 0); font-family: 'Noto Sans 
     height: 84%;
     background-color: white;
     position: relative;
-    border-radius: 12px;
+    border-radius: 13px;
     animation: showPopup 0.75s;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
@@ -448,7 +448,7 @@ li, a, p, span, h1, h2, h3, h4, h5{color: rgb(0, 0, 0); font-family: 'Noto Sans 
 .nft-pop > .nftpop-inner > .nth-items > img{
     width: 100%; 
     height: 100%; 
-    border-radius: 12px; 
+    border-radius: 13px; 
     box-shadow: 4px 8px 18px rgba(0,0,0,0.16);
 }
 .nft-pop >  .nftpop-inner > .nft-overlay{
