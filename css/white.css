@@ -19,6 +19,7 @@ body{
     align-items: center; 
     justify-content: center;
 }
+.web-bot > img{width: 50%; height: 90%;}
 .web-bot > span{margin-left: 14px; font-size:24px; font-weight: 700; color: black;}
 
 .moblie{
