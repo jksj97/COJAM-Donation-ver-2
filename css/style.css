@@ -8,6 +8,7 @@
 body{
     background-color: #FCDA4E;
     position: relative;
+    overflow: hidden;
 }
 
 .web-bot{
@@ -26,6 +27,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .wrapper{

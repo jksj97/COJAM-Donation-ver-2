@@ -14,6 +14,7 @@ body{
     justify-content: center;
     vertical-align: middle;
     position: relative;
+    overflow: hidden;
 }
 
 .web-bot{
@@ -55,6 +56,7 @@ body{
     background-size: 380px 780px;
     background: url(../asset/img/contents/20.png) no-repeat center center;
     display: inline-block;
+    overflow: hidden;
 }
 .cojam-pay-donation{
     position: relative;
