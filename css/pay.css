@@ -247,7 +247,7 @@ select::-ms-expand {
     border-radius: 12px;
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
     text-align: center;
-    margin-top: 60px;
+    margin-top: 80px;
 }
 .main-info{
     width: 100%;
