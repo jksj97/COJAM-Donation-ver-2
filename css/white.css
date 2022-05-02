@@ -18,6 +18,7 @@ body{
     align-items: center; 
     justify-content: center;
 }
+.web-bot > span{margin-left: 14px; font-size:24px; font-weight: 700; color: black;}
 
 .moblie{
     width: 100%;
@@ -53,6 +54,7 @@ body{
     border-radius: 46px; 
     box-shadow: 6px 12px 20px rgba(47, 32, 0, 0.066);
     overflow: hidden;
+    background-color: white;
 }
 
 ul{list-style: none;}
@@ -280,6 +282,14 @@ li, a, p, span, h1, h2, h3, h4, h5{color: rgb(0, 0, 0); font-family: 'Noto Sans 
     float: right;
     z-index: 98;
 }
+.tabCon > .brand-content > .brand-list > ul > li > p > span{
+    width: 130px;
+    font-size: 13px;
+    font-weight: 700;
+    position: relative;
+    float: left;
+}
+
 
 .euent-area{
     width: 120%; 
