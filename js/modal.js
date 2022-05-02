@@ -17,6 +17,8 @@ $( document ).ready(function() {
             $(".modal").fadeOut();
           });
 
+      
+
       //popUp
       $('a.btn-pop01').click(function(e)
       {
@@ -29,6 +31,20 @@ $( document ).ready(function() {
       });
       $("#close").on("click", function(){
         $("#pop01").hide();
+      });
+
+      //nft popup
+      $('div.topnft').click(function(e)
+      {
+        e.preventDefault();   
+      });
+  
+
+      $(".topnft").on("click", function(){
+        $(".nft-pop").show();
+      });
+      $(".nth-items").on("click", function(){
+        $(".nft-pop").hide();
       });
 
 });
