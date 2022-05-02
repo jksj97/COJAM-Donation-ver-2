@@ -40,7 +40,7 @@ $( document ).ready(function() {
       });
   
 
-      $(".topnft").on("click", function(){
+      $(".small-boxnft").on("click", function(){
         $(".nft-pop").show();
       });
       $(".nth-items").on("click", function(){
