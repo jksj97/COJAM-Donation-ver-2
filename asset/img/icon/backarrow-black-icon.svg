@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.993" height="20.982" viewBox="0 0 20.993 20.982">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <g id="backarrow-black-icon" transform="translate(1804.993 4256.491) rotate(180)">
+    <path id="패스_41" data-name="패스 41" class="cls-1" d="M1784.122,4242.476h19.9" transform="translate(-0.122 3.524)"/>
+    <path id="패스_42" data-name="패스 42" class="cls-1" d="M1789.2,4236.142l8.669,10-8.669,10" transform="translate(6.128 -0.142)"/>
+  </g>
+</svg>

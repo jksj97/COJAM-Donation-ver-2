@@ -344,8 +344,17 @@ li, a, p, span, h1, h2, h3, h4, h5{color: rgb(0, 0, 0); font-family: 'Noto Sans 
 .brand-list > ul > li > span{font-size: 13px; font-weight: 700;}
 
 /* nth html area */
-.head{width: 100%; height: 60px; text-align: center;}
-.head > h4{margin-top: 14px;}
+.head{
+    width: 100%; 
+    height: 60px; 
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0 8%;
+    margin-bottom: 20px;
+    position: relative;
+}
+.head > h4{position: absolute; top: 16px; left: 48%;}
 .pay-paper{margin-left: 8%;}
 .paperitems-inner{
     width: 100%; 
